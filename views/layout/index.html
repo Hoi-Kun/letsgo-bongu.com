@@ -6,9 +6,29 @@
 	{{template "components/head/styles"}}
 	{{template "components/head/scripts"}}
 </head>
-<body class="antialiased bg-black text-zinc-300">
+<body class="antialiased bg-black text-white">
 	<header class="h-screen relative">
-		<div class="absolute top-0 left-0 w-full h-full brightness-50">
+		<div>
+			{{.Site.Store.Tel}}
+		</div>
+		<div>
+			<p>홍대역 인근 프리미엄 가라오케</p>
+		</div>
+		<div>
+			<p>한 번 방문하시면 분명 찾게 되는 그 곳!</p>
+		</div>
+		<div>
+			<img>
+			<img>
+			<h1>가즈아</h1>
+			<h1>가라오케</h1>
+			<h1>봉구실장</h1>
+			<h1>imoticon</h1>
+		</div>
+		<div>
+			{{.Site.Store.Tel}}
+		</div>
+		<!-- <div class="absolute top-0 left-0 w-full h-full brightness-50">
 			<img class="w-full h-full object-cover" src="/static/img/index/thumbnail.png">
 		</div>
 		<div class="absolute top-0 left-0 w-full h-full flex items-center justify-center">
@@ -29,11 +49,12 @@
 			   <line x1="12" y1="8" x2="12" y2="16"></line>
 			   <line x1="16" y1="12" x2="12" y2="16"></line>
 			</svg>
-		</div>
+		</div> -->
 	</header>
+	
 	<main class="space-y-10 lg:space-y-0">
 		{{embed}}
-		<div class="sticky bottom-4 text-right">
+		<!-- <div class="sticky bottom-4 text-right">
 			<span class="inline-block mr-4">
 				<a class="bg-[red] py-2 px-3 rounded-lg shadow shadow-black flex w-fit space-x-1 text-white" href="tel:{{.Site.Store.Tel}}">
 					<svg xmlns="http://www.w3.org/2000/svg" class="flex-none w-4 align-middle" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -43,7 +64,7 @@
 					<span class="flex-none text-sm font-bold">예약 문의 전화</span>
 				</a>
 			</span>
-		</div>
+		</div> -->
 	</main>
 	{{template "components/footer/global" .}}
 </body>

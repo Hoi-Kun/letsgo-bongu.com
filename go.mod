@@ -1,4 +1,4 @@
-module github.com/jeonghoikun/gn-secret.com
+module github.com/Hoi-Kun/letsgo-bongu.com
 
 go 1.19
 

@@ -1,1 +1,1 @@
-# gn-secret.com
+# letsgo-bongu.com

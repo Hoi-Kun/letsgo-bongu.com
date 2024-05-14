@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/Hoi-Kun/letsgo-bongu.com/siteconfig"
 	"github.com/gofiber/fiber/v2"
-	"github.com/jeonghoikun/gn-secret.com/siteconfig"
 )
 
 type page struct {

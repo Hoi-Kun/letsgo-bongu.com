@@ -5,8 +5,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/jeonghoikun/gn-secret.com/server"
-	"github.com/jeonghoikun/gn-secret.com/siteconfig"
+	"github.com/Hoi-Kun/letsgo-bongu.com/server"
+	"github.com/Hoi-Kun/letsgo-bongu.com/siteconfig"
 )
 
 func init() {
@@ -26,6 +26,6 @@ func init() {
 }
 
 func main() {
-	s := server.New(uint32(8021))
+	s := server.New(uint32(8006))
 	log.Fatal(s.Serve())
 }

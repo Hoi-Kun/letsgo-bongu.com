@@ -3,10 +3,10 @@ package server
 import (
 	"fmt"
 
+	"github.com/Hoi-Kun/letsgo-bongu.com/middleware"
+	"github.com/Hoi-Kun/letsgo-bongu.com/route"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/compress"
-	"github.com/jeonghoikun/gn-secret.com/middleware"
-	"github.com/jeonghoikun/gn-secret.com/route"
 )
 
 type Port uint32
@@ -19,7 +19,7 @@ type Server struct {
 }
 
 func config() fiber.Config {
-	appName := "Secret"
+	appName := "Letsgo-Bongu"
 	return fiber.Config{
 		AppName:      appName,
 		ServerHeader: appName,

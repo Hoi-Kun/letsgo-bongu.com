@@ -3,8 +3,8 @@ package middleware
 import (
 	"net/http"
 
+	"github.com/Hoi-Kun/letsgo-bongu.com/menu"
 	"github.com/gofiber/fiber/v2"
-	"github.com/jeonghoikun/gn-secret.com/menu"
 )
 
 func BindMenu(c *fiber.Ctx) error {

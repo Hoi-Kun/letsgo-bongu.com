@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strings"
 
+	"github.com/Hoi-Kun/letsgo-bongu.com/siteconfig"
 	"github.com/gofiber/fiber/v2"
-	"github.com/jeonghoikun/gn-secret.com/siteconfig"
 )
 
 type indexHandler struct{}
