@@ -61,19 +61,19 @@ var Config *config = &config{
 	DatePublished: time.Date(2024, time.Month(5), 14, 0, 0, 0, 0, time.Local),
 	DateModified:  time.Date(2024, time.Month(5), 15, 0, 0, 0, 0, time.Local),
 
-	Title:       "채우자",
+	Title:       "가즈아",
 	Description: "채우자",
-	Keywords:    "채우자",
-	Author:      "채우자",
+	Keywords:    "봉구실장, 가즈아 가라오케, 가즈아 봉구실장, 가라오케 봉구실장, 가라오케, 레츠고 봉구실장, 레츠고 가라오케",
+	Author:      "봉구실장",
 
 	Thumbnail: "/static/img/index/thumbnail.png",
 
 	Store: &store{
-		Location: "채우자",
-		Category: "채우자",
-		Name:     "채우자",
-		Address:  "채우자",
-		Tel:      "010.7676.3421",
+		Location: "홍대",
+		Category: "가라오케",
+		Name:     "가즈아",
+		Address:  "서울 마포구 양화로 지하 160",
+		Tel:      "010-7676-3421",
 		Images:   parseImages(),
 	},
 	SearchEngineConnection: &searchEngineConnection{

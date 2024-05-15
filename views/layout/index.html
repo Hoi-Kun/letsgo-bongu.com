@@ -7,26 +7,26 @@
 	{{template "components/head/scripts"}}
 </head>
 <body class="antialiased bg-black text-white">
-	<header class="h-screen relative">
-		<div>
-			{{.Site.Store.Tel}}
+	<header class="relative">
+		<div class="p-3 text-center text-5xl font-bold mb-6">
+			<p>{{.Site.Store.Tel}}</p>
 		</div>
-		<div>
-			<p>홍대역 인근 프리미엄 가라오케</p>
+		<div class="mb-3">
+			<p class="bg-gray-200 text-black ml-16 w-fit p-2 font-extrabold">
+				홍대역 인근 프리미엄 가라오케
+			</p>
 		</div>
-		<div>
-			<p>한 번 방문하시면 분명 찾게 되는 그 곳!</p>
+		<div class="mb-3">
+			<p class="bg-green-200 text-black w-fit p-2 font-extrabold">
+				한 번 방문하시면 분명 찾게 되는 그 곳!
+			</p>
 		</div>
-		<div>
-			<img>
-			<img>
-			<h1>가즈아</h1>
-			<h1>가라오케</h1>
-			<h1>봉구실장</h1>
-			<h1>imoticon</h1>
+		<div class="mt-10 mb-10">
+			<img class="absolute opacity-30" src="/static/img/index/girl1.png">
+			<img src="/static/img/index/logo.png">
 		</div>
-		<div>
-			{{.Site.Store.Tel}}
+		<div class="p-3 text-teal-200 text-center text-5xl font-bold mb-6">
+			<p>{{.Site.Store.Tel}}</p>
 		</div>
 		<!-- <div class="absolute top-0 left-0 w-full h-full brightness-50">
 			<img class="w-full h-full object-cover" src="/static/img/index/thumbnail.png">
