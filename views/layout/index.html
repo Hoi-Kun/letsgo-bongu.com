@@ -8,63 +8,30 @@
 </head>
 <body class="antialiased bg-black text-white">
 	<header class="relative">
-		<div class="p-3 text-center text-5xl font-bold mb-6">
+		<div class="p-3 text-center text-5xl font-bold mb-6 sm:text-6xl">
 			<p>{{.Site.Store.Tel}}</p>
 		</div>
 		<div class="mb-3">
-			<p class="bg-gray-200 text-black ml-16 w-fit p-2 font-extrabold">
+			<p class="bg-gray-200 text-black ml-16 w-fit p-2 font-extrabold sm:text-3xl">
 				홍대역 인근 프리미엄 가라오케
 			</p>
 		</div>
 		<div class="mb-3">
-			<p class="bg-green-200 text-black w-fit p-2 font-extrabold">
+			<p class="bg-green-200 text-black w-fit p-2 font-extrabold sm:text-3xl">
 				한 번 방문하시면 분명 찾게 되는 그 곳!
 			</p>
 		</div>
 		<div class="mt-10 mb-10">
-			<img class="absolute opacity-30" src="/static/img/index/girl1.png">
-			<img src="/static/img/index/logo.png">
+			<img class="w-full absolute opacity-30" src="/static/img/index/girl1.png">
+			<img class="w-full" src="/static/img/index/logo.png">
 		</div>
-		<div class="p-3 text-teal-200 text-center text-5xl font-bold mb-6">
+		<div class="p-3 text-teal-200 text-center text-5xl font-bold mb-6 sm:text-6xl">
 			<p>{{.Site.Store.Tel}}</p>
 		</div>
-		<!-- <div class="absolute top-0 left-0 w-full h-full brightness-50">
-			<img class="w-full h-full object-cover" src="/static/img/index/thumbnail.png">
-		</div>
-		<div class="absolute top-0 left-0 w-full h-full flex items-center justify-center">
-			<div>
-				<div class="p3 body-font font-orbitron drop-shadow-lg">
-					<div class="mt-4 text-[white] font-medium text-4xl sm:text-6xl">The Secret</div>
-					<div class="mt-3 text-right text-green-500 text-xl sm:text-3xl">
-						<div>EVERYDAY WITH YOU</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="absolute left-0 bottom-3 w-full">
-			<svg xmlns="http://www.w3.org/2000/svg" class="animate-bounce w-8 sm:w-10 mx-auto text-[red] opacity-70" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-			   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-			   <circle cx="12" cy="12" r="9"></circle>
-			   <line x1="8" y1="12" x2="12" y2="16"></line>
-			   <line x1="12" y1="8" x2="12" y2="16"></line>
-			   <line x1="16" y1="12" x2="12" y2="16"></line>
-			</svg>
-		</div> -->
 	</header>
 	
 	<main class="space-y-10 lg:space-y-0">
 		{{embed}}
-		<!-- <div class="sticky bottom-4 text-right">
-			<span class="inline-block mr-4">
-				<a class="bg-[red] py-2 px-3 rounded-lg shadow shadow-black flex w-fit space-x-1 text-white" href="tel:{{.Site.Store.Tel}}">
-					<svg xmlns="http://www.w3.org/2000/svg" class="flex-none w-4 align-middle" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-					   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-					   <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"></path>
-					</svg>
-					<span class="flex-none text-sm font-bold">예약 문의 전화</span>
-				</a>
-			</span>
-		</div> -->
 	</main>
 	{{template "components/footer/global" .}}
 </body>
