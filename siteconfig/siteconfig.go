@@ -72,12 +72,12 @@ var Config *config = &config{
 		Location: "홍대",
 		Category: "가라오케",
 		Name:     "가즈아",
-		Address:  "서울 마포구 양화로 지하 160",
+		Address:  "서울 마포구 노고산동 31-123",
 		Tel:      "010-7676-3421",
 		Images:   parseImages(),
 	},
 	SearchEngineConnection: &searchEngineConnection{
-		Google: "vca6lAnDIG-285kKpSxmm47sVeAOO5U-IM-_fvTAsaU",
+		Google: "fsLFxcnFDsrVs6n2PUhJOjwchrUo7VJmwrbf5YafMCw",
 	},
 }
 
